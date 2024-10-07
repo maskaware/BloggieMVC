@@ -1,7 +1,7 @@
 ﻿@model Bloggie.Web.Models.ViewModels.HomeViewModel
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ana Sayfa";
 }
 
 
@@ -9,18 +9,15 @@
     <div class="row align-items-center g-5 py-5">
         <div class="col-12 col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">
-                Bloggie - The Dev Blog
+                Foodiaryn: İstanbul'un En Lezzetli Köşeleri
             </h1>
             <p class="lead">
-                Bloggie is the gome to coding blogs covering a vast range of
-                topics like HTML, CSS, Javascript, ASP.NET, C#, Angular etc.
-                Want to read the latest dev articles? Join the bloggie app and
-                get weekly blogs in your email.
+               İstanbul’un gizli kalmış lezzetlerini keşfetmeye hazır mısınız? Her durakta farklı bir tat, her adımda benzersiz bir deneyim sizi bekliyor.
             </p>
         </div>
 
         <div class="col-12 col-lg-6">
-            <img src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600"
+            <img src="https://i.pinimg.com/736x/e1/2f/bc/e12fbc3be47bb8a1cc57849bb0217a4e.jpg"
                  alt="Bloggie - Dev blogs" 
                  class="d-block mx-lg-auto img-fluid"  width="300"/>
         </div>
@@ -78,7 +75,7 @@
                            asp-controller="Blogs"
                            asp-action="Index"
                            asp-route-urlHandle="@blogPost.UrlHandle"
-                           >Read More</a>
+                           >Devamını oku...</a>
                     </div>
 
                 }

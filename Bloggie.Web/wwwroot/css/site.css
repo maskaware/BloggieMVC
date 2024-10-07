@@ -25,3 +25,13 @@ body {
 .blog-details-content img {
     max-width: 100%;
 }
+body {
+    background-image: url('/indir.jpeg'); /* Arka plan resmi */
+    background-size: cover; /* Resmin tüm alaný kaplamasýný saðlar */
+    background-position: center; /* Resmin ortalanmasýný saðlar */
+    background-repeat: no-repeat; /* Resmin tekrarlanmamasýný saðlar */
+    background-attachment: fixed; /* Arka planýn kaydýrýldýðýnda sabit kalmasýný saðlar */
+    min-height: 100vh; /* Sayfanýn en az 100vh yüksekliðinde olmasýný saðlar */
+    margin: 0; /* Varsayýlan marginleri kaldýrýr */
+}
+
